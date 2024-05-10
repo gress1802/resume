@@ -1,0 +1,183 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+%------------------------------------------------------------------------------
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Joseph Gress} \\ \vspace{1pt}
+    \small (262) 202-9070 $|$ \href{mailto:jgress1802@gmail.com}{\underline{jgress1802@gmail.com}} $|$ 
+    \href{linkedin.com/in/joseph-gress }{\underline{linkedin.com/in/joseph-gress }}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Wisconsin - La Crosse}{Sept. 2021 -- Dec. 2024}
+      {B.S. Computer Science, Mathematics minor $|$ \textbf{GPA}: 3.6/4.0}
+      {La Crosse, WI}
+      \resumeItemListStart
+        \resumeItem{\textbf{Honors}: Dean's List, Executive Council}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+%----------- TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    {\textbf{Languages}: Python, C\#, C, Javascript, Typescript, SQL}\\
+    {\textbf{Technologies}: Pytorch, Angular, React, NodeJS, CI/CD, .NET}\\
+    {\textbf{Tools}: Github, Azure, OpenAI}}}
+\end{itemize}
+ 
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{IT Architecture Intern}}{June 2024 -- Present}
+      {Johnson Controls}{Milwaukee, WI}
+      \resumeItemListStart
+        \resumeItem{Played a key role as an inventor of a \textbf{sales copilot (RAG)}, primarily utilizing \textbf{Azure OpenAI (GPT4)}, \textbf{Azure AI Search}, and \textbf{Azure ML Prompt Flow} to save approximately 15\% of time spent searching documents}
+        \resumeItem{Presented the Sales Copilot to the \textbf{CIO} and \textbf{CTO} of Johnson Controls, earning recognition for its patent potential and securing a \textbf{funding allocation} of \$250,000. This funding is designated for scaling infrastructure and supports collaboration with a team of contracted data scientists}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\textbf{Data Analytics Intern}}{May 2023 -- June 2024}
+      {Johnson Controls}{Milwaukee, WI}
+      \resumeItemListStart
+      \resumeItem{Utilized \textbf{spaCy}, \textbf{pandas}, and \textbf{gensim} in a VOC analysis of over 10,000 user comments, helping to identify key areas of improvement and aid allocation of 1/2 of total funding for fy24}
+        \resumeItem{Developed a \textbf{React Azure DevOps} extension with \textbf{.NET 6} on the backend, utilizing \textbf{Azure App Service}, \textbf{Azure Functions}, \textbf{Azure SQL}, and \textbf{Azure Data Factory}}       
+        \resumeItem{Constructed a \textbf{CI/CD pipeline} using \textbf{Azure Pipelines} for seamless deployment of an Azure DevOps extension and a \textbf{.NET 6} backend to \textbf{Azure App Service}, along with an \textbf{SQL Server Schema} to \textbf{Azure SQL}}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+ % -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading for promotions/multiple levels of the same position under the same company
+%-------------------------------------------     
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart         
+    \resumeProjectHeading
+    {\textbf{Kaggle Cancer Detection} $|$ \emph{Pytorch, Pytorch Lightning}} {Feb. 2023}
+      \resumeItemListStart
+        \resumeItem{Leveraged transfer learning by training a \textbf{ResNet-18} model on a Kaggle dataset for the classification of cancerous cells, achieving a high classification accuracy of \textbf{92\%}}
+        \resumeItem{Developed a lightweight, custom version of ResNet tailored for binary classification tasks, utilizing \textbf{convolutional} and \textbf{residual blocks} with \textbf{maximum pooling} and \textbf{adaptive pooling} strategies for an \textbf{86\% accuracy}}
+        \resumeItem{Experimented with \textbf{data augmentation} and \textbf{hyperparameter tuning}, including adjustments to learning rates and optimizer configurations, to enhance model performance and accuracy}
+      \resumeItemListEnd
+    
+    \resumeProjectHeading
+      {\textbf{Job Search Engine} $|$ \emph{Angular, NodeJS, MongoDB, AWS}}{May 2022}
+      \resumeItemListStart
+        \resumeItem{Built a user-friendly, \textbf{MEAN Stack} web application integrating the USA Jobs API and supporting profile management, user administration, and advanced search capabilities}
+        \resumeItem{Visualized data from the CareerOneStop API using \textbf{Angular Charts} to provide useful insights on salaries, projected employment growth, and top industries hiring for specific occupations}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------
+\section{Leadership}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+      {\textbf{Executive Council Member}}{Sept. 2023 - May 2024}
+      {University of Wisconsin - La Crosse}{La Crosse, WI}
+        \resumeItemListStart
+            \resumeItem{Served as a student representative on the Executive Council, advocating for the needs and interests of various sports clubs within the university's competitive sports program.}
+            \resumeItem{Engaged in weekly meetings with the coordinator of Competitive Sports to address ongoing issues and implement strategic improvements within the sports club program.}
+            \resumeItem{Assisted in the resolution of infractions, ensuring adherence to program standards and promoting fair play and respect across all activities.}
+         \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
