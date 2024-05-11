@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.25)  10 MAY 2024 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.25)  11 MAY 2024 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Joe/Desktop/resume/Joseph Gress Resume.tex"
-(c:/Users/Joe/Desktop/resume/Joseph Gress Resume.tex
+**"c:/Users/Joe/Desktop/resume/Generic Resume/Joseph Gress Resume.tex"
+(c:/Users/Joe/Desktop/resume/Generic Resume/Joseph Gress Resume.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -313,14 +313,14 @@ Package rerunfilecheck Info: File `"Joseph Gress Resume".out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10262 strings out of 478287
- 161640 string characters out of 5850743
+ 161687 string characters out of 5850743
  496277 words of memory out of 5000000
  28334 multiletter control sequences out of 15000+600000
  475545 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,415b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,430b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "Joseph Gress Resume.pdf" (1 page, 117012 bytes).
+Output written on "Joseph Gress Resume.pdf" (1 page, 117017 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
